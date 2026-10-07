@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eeede8">
+  <meta name="description" content="KELEN 的个人档案开场：鸽子送信、信封落地变 K、旋转立起与档案界面进场。播放、慢放并逐阶段观察。">
+  <title>动效档案 — KELEN</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到内容</a>
+  <div class="site-frame">
+    <aside class="rail">
+      <a class="identity" href="https://kelen1421.github.io/kelen-/" aria-label="返回 KELEN 个人主页"><strong>KELEN</strong><small>SYNTHESIZE INFORMATION</small><span>ANALYSIS <b>OS</b></span></a>
+      <div class="rail-meta"><span>VISUAL ARCHIVE<br>COLLECTION / 002</span><span>EST.<br>2026</span></div>
+      <nav aria-label="页面目录">
+        <a class="active" href="#preview"><span>00</span>动效预览 / PLAY</a>
+        <a href="#sequence"><span>01</span>关键帧 / SEQUENCE</a>
+        <a href="#notes"><span>02</span>观察记录 / NOTES</a>
+        <a href="#personal"><span>03</span>个人主页 / KELEN</a>
+        <a href="#download"><span>04</span>下载与分享 / SHARE</a>
+      </nav>
+      <div class="rail-foot"><span><i></i> ARCHIVE ONLINE</span><a href="https://kelen1421.github.io/kelen-/">个人主页 ↗</a></div>
+    </aside>
+    <main id="content">
+      <div class="topline"><span>PERSONAL MOTION ARCHIVE</span><span>FILE 001 / 2026.10.07</span></div>
+      <section class="hero" id="preview" aria-labelledby="page-title">
+        <div class="hero-intro">
+          <div><p class="eyebrow"><i></i> VISUAL STUDY / 001</p><h1 id="page-title">动效档案<span>MOTION ARCHIVE</span></h1></div>
+          <div class="intro-copy"><p>从一封来信，<br>打开我的个人档案。</p><span>送信 · 信封变 K · 档案进场</span></div>
+        </div>
+        <div class="player-shell">
+          <div class="player-heading"><span><i></i> KELEN / ORIGINAL WEB MOTION</span><span>DOVE → ENVELOPE → K → ARCHIVE</span></div>
+          <div class="video-stage" id="video-stage">
+            <iframe id="motion-player" src="kelen-player.html?controlled=1" title="个人档案开场：鸽子送信、信封变 K 与档案界面进场" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            <button class="stage-play" id="stage-play" aria-label="播放个人档案开场"><span>▶</span><small>播放开场</small></button>
+            <span class="stage-corner">001 / KELEN ARRIVAL</span>
+          </div>
+          <div class="scrub-row"><input id="scrub" type="range" min="0" max="2.5432" step="0.001" value="0" aria-label="动效播放进度"><span id="time">00:00.00 / 00:02.54</span></div>
+          <div class="controls">
+            <div class="transport"><button id="play" aria-label="播放"><span id="play-icon">▶</span><span id="play-label">播放</span></button><button id="restart" aria-label="从头重播">↺ <span>重播</span></button></div>
+            <div class="settings"><button id="loop" aria-pressed="false">循环 <span>OFF</span></button><label for="speed">速度</label><select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button id="fullscreen" aria-label="动效全屏">⤢ <span>全屏</span></button></div>
+          </div>
+        </div>
+        <div class="clip-caption"><p><span>MOTION 001</span> 个人档案 · 信封变 K 开场</p><p>开场时长 <b>2.54s</b><span class="caption-dot">·</span> 主页原始动效</p></div>
+        <div class="playback-note" id="player-message" role="status" aria-live="polite"></div>
+        <div class="hero-bottom"><span>观察动态，而不只看最终画面。</span><a href="#sequence">逐帧阅读 ↓</a></div>
+      </section>
+
+      <section id="sequence" class="section" aria-labelledby="sequence-title">
+        <div class="section-label"><span>01 — SEQUENCE</span><span>SIX MOMENTS / ONE ARRIVAL</span></div>
+        <div class="section-intro"><h2 id="sequence-title">把时间展开。</h2><p>选择关键帧，定位开场中的对应时刻。<br>从信封到 K，再接入档案界面。</p></div>
+        <div class="frames">
+          <button class="frame" data-time="0.5" aria-pressed="false"><img src="kelen-01-flight.jpg" alt="鸽子携带信封飞入" loading="lazy"><span><b>01 / 送信飞入</b><i>0.50s</i></span><small>信封保持完整，跟随鸽子</small></button>
+          <button class="frame" data-time="0.95" aria-pressed="false"><img src="kelen-02-fall.jpg" alt="信封释放并旋转下落" loading="lazy"><span><b>02 / 释放与下落</b><i>0.95s</i></span><small>脱离鸽子，旋转向地面落下</small></button>
+          <button class="frame" data-time="1.23" aria-pressed="false"><img src="kelen-03-land.jpg" alt="信封平放在地面" loading="lazy"><span><b>03 / 信封落地</b><i>1.23s</i></span><small>保持信封形态，准备展开</small></button>
+          <button class="frame" data-time="1.48" aria-pressed="false"><img src="kelen-04-morph.jpg" alt="信封纸面旋转展开为 K" loading="lazy"><span><b>04 / 展开成 K</b><i>1.48s</i></span><small>纸片展开，折线隐去，玻璃面成形</small></button>
+          <button class="frame" data-time="1.95" aria-pressed="false"><img src="kelen-05-stand.jpg" alt="K 从地面旋转立起" loading="lazy"><span><b>05 / 旋转立起</b><i>1.95s</i></span><small>K 扩大并立起，轨道渐显</small></button>
+          <button class="frame" data-time="2.5432" aria-pressed="false"><img src="kelen-06-archive.jpg" alt="开场接入个人档案界面" loading="lazy"><span><b>06 / 档案接入</b><i>2.54s</i></span><small>侧栏与内容进场，主视觉完成交接</small></button>
+        </div>
+        <div class="section-foot"><span>ACTUAL WEB MOTION / SIX PAUSED STATES</span><span id="frame-status" aria-live="polite">选择一个时刻，开始观察 ↗</span></div>
+      </section>
+
+      <section id="notes" class="section" aria-labelledby="notes-title">
+        <div class="section-label"><span>02 — OBSERVATION</span><span>CARRY / LAND / MORPH / REVEAL</span></div>
+        <div class="notes-layout"><div><p class="eyebrow">ARRIVAL LANGUAGE</p><h2 id="notes-title">一封来信，<br>变成档案的入口。</h2><p class="notes-sub">先建立一个可辨认的信封，<br>再让它展开为 K，接入界面。</p></div>
+          <div class="observations">
+            <article><span>01<br>0–0.84s</span><div><h3>鸽子送信</h3><p>鸽群沿不同路径飞入。信封跟随携带它的鸽子，细线连接鸟嘴与信封，纸面、封口与折线清晰可辨。</p></div><b>↗</b></article>
+            <article><span>02<br>0.84–1.23s</span><div><h3>释放、旋转、落地</h3><p>信封脱离鸽子，边下落边旋转，逐渐倾斜为平放姿态；落地时带轻微回弹。这一段始终保留信封形态。</p></div><b>↓</b></article>
+            <article><span>03<br>1.23–1.58s</span><div><h3>纸面展开成 K</h3><p>信封在地面平面内旋转展开。纸片轮廓逐渐对齐 K 的各个切面，封口与折线淡出，纸色过渡为半透明玻璃质感。</p></div><b>＋</b></article>
+            <article><span>04<br>1.58–2.09s</span><div><h3>K 旋转立起</h3><p>K 围绕下边缘立起，同时旋转、放大并移向首页主视觉的位置。地面阴影退去，环形轨道与飘带逐渐画出。</p></div><b>↖</b></article>
+            <article><span>05<br>1.63–2.54s</span><div><h3>档案界面进场</h3><p>与 K 立起交错进行：侧栏、标题、档案入口和边缘信息从四周沿弧线旋转进入，最后交接到主页的玻璃 K 场景。</p></div><b>↗</b></article>
+          </div>
+        </div>
+        <p class="reference-limit"><span>时间与顺序</span>总时长约 2.54 秒。界面进场与 K 立起存在重叠；信封先在地面展开成 K，再旋转立起。关键帧来自同一套开场动效，可点击定位和慢放。</p>
+      </section>
+
+      <section id="personal" class="section personal-section" aria-labelledby="personal-title">
+        <div class="section-label"><span>03 — FROM MY HOMEPAGE</span><span>CONTINUOUS HOMEPAGE MOTION / 002</span></div>
+        <div class="section-intro"><h2 id="personal-title">开场之后，<br>画面继续呼吸。</h2><p>玻璃 K、旋转轨道与光线。<br>单独观察主页的持续动效。</p></div>
+        <article class="demo-card">
+          <div class="demo-heading"><div><span>002 / LIVING SCENE</span><h3>玻璃 K · 轨道与光线</h3></div><button class="demo-replay" data-demo="scene-demo" data-source="kelen-scene.html">↺ 重新开始</button></div>
+          <div class="demo-stage"><iframe id="scene-demo" src="kelen-scene.html" title="个人主页玻璃 K、旋转轨道与漂浮光线动效" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe></div>
+          <div class="demo-caption"><p>玻璃 K 轻微漂浮，环形轨道缓慢旋转；飘带、碎片与光线连续运动。</p><span>持续循环 / 画面右上可暂停</span></div>
+        </article>
+        <div class="section-foot"><span>KELEN / ORIGINAL SVG + WEB MOTION</span><a href="https://kelen1421.github.io/kelen-/" target="_blank" rel="noopener">在个人主页中查看 ↗</a></div>
+      </section>
+
+      <section id="download" class="section download-section" aria-labelledby="download-title">
+        <div class="section-label"><span>04 — TAKE A CLOSER LOOK</span><span>KEEP / REVISIT / SHARE</span></div>
+        <div class="download-head"><div><h2 id="download-title">留下一份，<br>也分享这一瞬。</h2><p>开场、时间点与关键帧，放在一起。</p></div><button class="share-button" id="share">分享网页 <span>↗</span></button></div>
+        <div class="downloads">
+          <a href="kelen-animation.zip" download="KELEN个人档案动效.zip"><span>01 / ANIMATION</span><b>个人档案动效源码</b><small>ZIP · 可独立播放</small><i>↓</i></a>
+          <a href="kelen-notes.txt" download="个人档案动效拆解.txt"><span>02 / DOCUMENT</span><b>个人档案动效拆解</b><small>TXT · 时间与路径</small><i>↓</i></a>
+          <a href="kelen-keyframes.zip" download="个人档案关键帧.zip"><span>03 / COLLECTION</span><b>六个关键帧</b><small>ZIP · 六个暂停画面</small><i>↓</i></a>
+        </div>
+        <div id="share-status" class="share-status" role="status" aria-live="polite"></div>
+      </section>
+      <footer><span>© 2026 KELEN / MOTION ARCHIVE</span><a href="https://kelen1421.github.io/kelen-/">回到个人主页 ↗</a><a href="#preview">BACK TO TOP ↑</a></footer>
+    </main>
+  </div>
+  <dialog id="share-dialog"><form method="dialog"><button class="dialog-close" aria-label="关闭">×</button><p class="eyebrow">SHARE THIS MOMENT</p><h2>分享动效档案</h2><label for="share-url">复制下面的网页链接</label><input id="share-url" type="text" readonly><button class="button-primary" id="copy-link" type="button">复制链接 ↗</button><p id="copy-status" role="status" aria-live="polite"></p></form></dialog>
+</body>
+</html>
