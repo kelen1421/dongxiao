@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><script>addEventListener('error',e=>parent.postMessage({kind:'preview-error',id:"R03",message:e.message},'*'));addEventListener('unhandledrejection',e=>parent.postMessage({kind:'preview-error',id:"R03",message:String(e.reason)},'*'));addEventListener('load',()=>parent.postMessage({kind:'preview-ready',id:"R03"},'*'));</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>年度数据 — Lieflat 报告模板 · 编辑部书脊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ═══════════════════════════════════════════════════════════════
+     LIEFLAT 报告模板 03 · 年度数据海报（中文版）
+     场景：个人 / 独立开发者年度数据海报（build in public 年终盘点、
+           社媒长图、博客年报）
+     排版参考："2019 Website Traffic" 蜜桃海报（左侧竖排书脊大标题、
+               粗双线分区、胖衬线标题 + 三栏底部模块）—— 只学排版和
+               字体，蜜桃底色不学。
+     中西混排：数字与拉丁走 Fraunces / Inter，汉字走 Noto。
+               书脊竖排用 writing-mode，汉字直立、数字横转。
+     色板正本 = color-presets.js 的 WIRE 一套，不新增色值。
+       灰阶承载数据，荧光橙 #F5572F 每张图只标一个主角。
+     图表正本 = lieflat gallery：
+       图A  F1  rung bars（三面板小倍数）· basics-gallery.html
+       图B  L10 radial patchwork · lupi-gallery.html "A quarter of deploys, overlaid"
+       图C  F5  tick rows   · basics-gallery.html
+       图D  F11 tick gauge  · basics-gallery.html
+     WIRE 属 mono+accent：灰阶密度规则同 Mono，无需 ×1.8 加墨。
+     ═══════════════════════════════════════════════════════════════ */
+  :root{
+    /* WIRE preset roles */
+    --bg:#F0F0EE; --txt:#1F1E1C;
+    --mut:rgba(31,30,28,.60); --lab:rgba(31,30,28,.72);
+    --faint:rgba(31,30,28,.32); --quiet:rgba(31,30,28,.15);
+    --grid:rgba(31,30,28,.16);
+    --data:#22211F; --data2:#8F8E86; --hero:#F5572F; --faintdata:#C0BFB7;
+    --fat:'Fraunces','Noto Serif SC','Songti SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:'Inter','Noto Sans SC',sans-serif;
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums lining-nums;
+    display:flex;justify-content:center;padding:56px 24px}
+  .sheet{width:1080px;max-width:1080px;display:grid;grid-template-columns:104px 1fr;gap:0}
+
+  /* ── 书脊：竖排大标题（学参考图3）── */
+  .spine{position:relative;border-right:3px double var(--txt)}
+  .spine .t{position:absolute;top:0;left:10px;
+    writing-mode:vertical-rl;
+    font-family:var(--fat);font-weight:900;font-size:56px;
+    line-height:1.05;letter-spacing:.08em;white-space:nowrap}
+  .spine .t .yr{color:var(--hero);letter-spacing:.02em}
+  .spine .b{position:absolute;bottom:0;left:36px;writing-mode:vertical-rl;
+    font-size:9.5px;font-weight:700;letter-spacing:.3em;color:var(--mut)}
+
+  .content{padding-left:44px}
+
+  /* ── 顶注（学参考图3 的黑条 source 行）── */
+  .topbar{display:flex;justify-content:space-between;background:var(--data);color:var(--bg);
+    font-size:9.5px;font-weight:600;letter-spacing:.1em;
+    padding:7px 14px;margin-bottom:34px}
+  .topbar b{color:#F5572F}
+
+  /* ── 三面板小倍数（一张图，三个 panel）── */
+  .panels{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .panel .growth{font-size:20px;font-weight:800;letter-spacing:-.02em}
+  .panel .growth .pct{color:var(--hero)}
+  .panel .growth .dots{color:var(--faint);font-weight:600;font-size:12px}
+  .panel .glabel{font-size:9.5px;font-weight:600;letter-spacing:.08em;
+    color:var(--mut);margin-top:2px}
+  .panel h3{font-family:var(--fat);font-size:19px;font-weight:800;text-align:center;
+    margin-top:6px;letter-spacing:.04em}
+  .fig svg{width:100%;height:auto;display:block}
+  svg text{font-family:'Inter','Noto Sans SC',sans-serif}
+
+  /* ── 粗双线分隔（学参考图3）── */
+  .double{border-top:1px solid var(--txt);border-bottom:3px solid var(--txt);height:6px;
+    margin:38px 0 0}
+
+  /* ── 中带：最忙一天（callout，不占图额度）── */
+  .midband{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:30px;align-items:center;
+    padding:26px 0 30px}
+  .midband .l{font-size:15px;font-weight:800;line-height:1.6}
+  .midband .c{font-family:var(--fat);font-size:30px;font-weight:800;line-height:1.3;
+    color:var(--hero);text-align:center}
+  .midband .r .row{display:flex;justify-content:space-between;font-size:11.5px;font-weight:700;
+    padding:7px 0;border-bottom:1px dotted var(--faint)}
+  .midband .r .row:last-child{border-bottom:0}
+  .midband .r .row span:last-child{font-weight:800}
+
+  /* ── 底部三栏 ── */
+  .bottom{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:34px;padding-top:30px}
+  .bottom h3{font-family:var(--fat);font-size:20px;font-weight:800;text-align:center;
+    color:var(--txt);margin-bottom:4px;letter-spacing:.04em}
+  .srcline{font-size:8.5px;font-weight:600;letter-spacing:.1em;
+    color:var(--faint);margin-top:8px;text-align:center}
+
+  .foot{margin-top:44px;border-top:3px double var(--txt);padding-top:12px;
+    display:flex;justify-content:space-between;font-size:9px;font-weight:600;
+    letter-spacing:.12em;color:var(--mut)}
+
+  /* ── 动画（mono-tokens MOTION.css 原样）── */
+  .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1.3) both}
+  @keyframes pop{from{transform:scale(0)}to{transform:none}}
+  .fade{animation:fade .9s ease both}
+  @keyframes fade{from{opacity:0}}
+  .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media(max-width:640px){body{padding:24px 10px}}
+  @media (prefers-reduced-motion:reduce){
+    .pop,.fade{animation:none}
+    .draw{animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ══ 书脊 ══ -->
+  <div class="spine">
+    <div class="t"><span class="yr">2026</span> 年度数据</div>
+    <div class="b">BUILD IN PUBLIC · 年报</div>
+  </div>
+
+  <div class="content">
+    <div class="topbar"><span>全部数据来自 PLAUSIBLE.IO + STRIPE</span><span><b>@你的账号</b></span></div>
+
+    <!-- ══ 图A · F1 rung bars 三面板小倍数：同一把尺子看三个指标三年 ══
+         模板：basics-gallery.html · "Revenue by plan, rung by rung"
+         一个面板 = 一组 rung bars（2024/25/26 三柱），三个面板共用一图 -->
+    <div class="panels">
+      <div class="panel">
+        <div class="growth"><span class="pct">+92%</span> <span class="dots">·········</span> 3.5k</div>
+        <div class="glabel">较 2025 年增长</div>
+        <div class="fig"><svg id="p0" viewBox="0 0 200 190" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <h3>访客</h3>
+      </div>
+      <div class="panel">
+        <div class="growth"><span class="pct">+122%</span> <span class="dots">·······</span> 2.9k</div>
+        <div class="glabel">较 2025 年增长</div>
+        <div class="fig"><svg id="p1" viewBox="0 0 200 190" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <h3>注册</h3>
+      </div>
+      <div class="panel">
+        <div class="growth"><span class="pct">+121%</span> <span class="dots">·······</span> 12.3k</div>
+        <div class="glabel">较 2025 年增长</div>
+        <div class="fig"><svg id="p2" viewBox="0 0 200 190" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <h3>浏览量</h3>
+      </div>
+    </div>
+    <div class="srcline">RUNG BARS 小倍数 · 一档 = 100（访客、注册）/ 400（浏览量）· 橙 = 2026</div>
+
+    <div class="double"></div>
+
+    <!-- ══ 中带 callout ══ -->
+    <div class="midband">
+      <div class="l">三年 build in public，<br>最忙的一天</div>
+      <div class="c">2026 年 7 月 6 日<br>星期一</div>
+      <div class="r">
+        <div class="row"><span>访客</span><span>66</span></div>
+        <div class="row"><span>注册</span><span>55</span></div>
+        <div class="row"><span>浏览量</span><span>241</span></div>
+      </div>
+    </div>
+
+    <div class="double" style="margin-top:0"></div>
+
+    <!-- ══ 底部三栏 ══ -->
+    <div class="bottom">
+      <div>
+        <h3>几点动手</h3>
+        <!-- 图B · L10 radial patchwork · lupi-gallery.html "A quarter of deploys, overlaid" -->
+        <div class="fig"><svg id="patchwork" viewBox="0 0 400 340" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline">RADIAL PATCHWORK · 一瓦 = 一次上线 · 角度 = 时刻 · 半径 = 声量 · 叠色越重 = 越扎堆 · 橙框 = 冲上 HN 首页</div>
+      </div>
+      <div>
+        <h3>读者从哪来</h3>
+        <!-- 图C · F5 tick rows · basics-gallery.html -->
+        <div class="fig"><svg id="rows" viewBox="0 0 268 210" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline">TICK ROWS · 一格 = 10 次访问 · 橙 = 赢家渠道</div>
+      </div>
+      <div>
+        <h3>访问 → 注册</h3>
+        <!-- 图D · F11 tick gauge · basics-gallery.html -->
+        <div class="fig"><svg id="gauge" viewBox="0 0 200 210" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline">TICK GAUGE · 一格 = 每 100 次访问中的 1 次</div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <span>yoursite.com · 2026 年度数字</span>
+      <span>LIEFLAT CHARTS 出品</span>
+    </div>
+  </div>
+</div>
+
+<script src="../shared/s-9ca56097b6d86027.js"></script>
+<script>
+/* ── fit-width：视口比版心窄时整页等比缩小，不重排 ──
+   报告是一张版面，不是响应式网页。窄屏塌成单栏会得到一个
+   设计时不存在的版式；等比缩小则保留构图，跟 PDF 的「适合宽度」一致。
+   机制同模板 11。 */
+(()=>{
+  const sheet=document.querySelector('.sheet');
+  const W=1080;
+  const fit=()=>{
+    const cs=getComputedStyle(document.body);
+    const avail=document.documentElement.clientWidth
+      -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    sheet.style.zoom=Math.min(1,avail/W);
+  };
+  fit();
+  addEventListener('resize',fit);
+})();
+</script>
+</body>
+</html>

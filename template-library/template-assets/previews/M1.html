@@ -1,0 +1,42 @@
+<!doctype html><html><head><script>addEventListener('error',e=>parent.postMessage({kind:'preview-error',id:"M1",message:e.message},'*'));addEventListener('unhandledrejection',e=>parent.postMessage({kind:'preview-error',id:"M1",message:String(e.reason)},'*'));addEventListener('load',()=>parent.postMessage({kind:'preview-ready',id:"M1"},'*'));</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Lieflat Charts · Maps · 2 张参考实现</title>
+<script src="../vendor/echarts.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F0EFEB;--dark:#1C1C1A;--ink:#1C1C1A;--muted:#8F8E88;--faint:#C6C5BF;--grid:#DEDDD6}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);font-family:'Inter',sans-serif;color:var(--ink);padding:40px;-webkit-font-smoothing:antialiased}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:1400px;margin:0 auto}
+  .card{background:var(--bg);border-radius:24px;padding:28px 28px 20px}
+  .card.wide{grid-column:1/-1}
+  h2{font-weight:700;font-size:16.5px;letter-spacing:-.02em;margin-bottom:3px}
+  .sub{font-size:11.5px;color:var(--muted);margin-bottom:14px}
+  .src{font-size:9.5px;color:var(--faint);margin-top:10px;letter-spacing:.08em;font-weight:500}
+  .badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.08em;
+    padding:3px 10px;border-radius:99px;margin-bottom:10px;border:1px dashed #B0AFA9;color:#8F8E88}
+  svg{width:100%;max-height:330px;display:block;margin:0 auto}
+  svg text{font-family:'Inter',sans-serif}
+  .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1.3) both}
+  @keyframes pop{from{transform:scale(0)}to{transform:none}}
+  .fade{animation:fade .9s ease both}
+  @keyframes fade{from{opacity:0}}
+  .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion:reduce){
+    .pop,.fade{animation:none}
+    .draw{animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  }
+  .pagehead{max-width:1400px;margin:0 auto 26px;padding:0 4px}
+  .pagehead h1{font-size:22px;letter-spacing:-.02em;font-weight:800}
+  .pagehead p{font-size:12px;color:#8F8E88;margin-top:5px;line-height:1.7}
+</style>
+<style>html,body{margin:0!important;padding:0!important;background:#F0EFEB;overflow:hidden}body{height:100vh;display:grid;place-items:center}.card{width:100%;height:100vh;padding:24px!important;border-radius:0!important;display:flex;flex-direction:column;justify-content:center}.card h2{font-size:18px}.card .sub,.card .src,.badge,.note,.legend{display:none!important}.split{display:block!important}svg{width:100%!important;max-height:350px!important}.ch{height:330px!important;min-height:0!important;width:100%!important}.card.dark{background:#1c1c1a}.card .split svg{height:340px}</style></head><body><div class="card">
+    <span class="badge">MAPS · US CHOROPLETH</span>
+    <h2>Sign-ups across the states</h2>
+    <div class="sub">real outlines · Alaska and Hawaii tucked lower-left · shade = sign-ups, five steps · needs the network for map data</div>
+    <div class="ch" id="mapus" style="height:340px"></div>
+    <div class="src">CHOROPLETH · MONO-MAP · GROWTH GEO</div>
+  </div><script src="../shared/s-a5f45cec8691e5a8.js"></script></body></html>

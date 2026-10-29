@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><script>addEventListener('error',e=>parent.postMessage({kind:'preview-error',id:"R06",message:e.message},'*'));addEventListener('unhandledrejection',e=>parent.postMessage({kind:'preview-error',id:"R06",message:String(e.reason)},'*'));addEventListener('load',()=>parent.postMessage({kind:'preview-ready',id:"R06"},'*'));</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>产品八年年鉴 — Lieflat 报告模板 · 椰林深水区</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ═══════════════════════════════════════════════════════════════
+     LIEFLAT 报告模板 06 · 产品八年年鉴（Lupi 深水区示范）
+     目的：验证 Lupi Editorial 组里最复杂的四张图放进报告版式的效果。
+     版式骨架 = 模板 02（衬底 + 纸张 + 字距节标题 + 大数收尾），
+     色板 = color-presets.js 的 PALM 一套（绿黄低饱和 + 琥珀强调）。
+     复杂图的色彩纪律：SER 分类色一簇一色，RAMP 序数梯一档一级，
+     琥珀只给峰值。彩色加墨（INK_BOOST）：发丝 ×1.8，透明度地板 .85。
+     图表正本 = lupi-gallery.html，四张全部照搬结构只换数据：
+       图A  L1  launch fan         "Twelve features, fanned out"
+       图B  L5  radial convergence "48 requests pull toward five themes"
+       图C  L·almanac bubble almanac "Eight years of tickets, one almanac"
+            —— 860 宽大图，靠 980 版心整行放下，这是选这个骨架的原因
+       图D  L9  hourglass stream   "The funnel, poured"
+     ═══════════════════════════════════════════════════════════════ */
+  :root{
+    /* MONO tokens */
+    --paper:#F0EFEB; --ink:#58402E; --muted:rgba(88,64,46,.60); --faint:rgba(88,64,46,.40); --grid:rgba(88,64,46,.16);
+    --mat:#28311F;
+    --serif:'Noto Serif SC','Songti SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--mat);font-family:'Inter','Noto Sans SC',sans-serif;color:var(--ink);
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums lining-nums;
+    display:flex;justify-content:center;padding:64px 32px}
+  .sheet{width:980px;max-width:980px;background:var(--paper);padding:64px 68px 72px}
+
+  /* ── 刊头 ── */
+  .masthead{display:flex;justify-content:space-between;align-items:baseline;
+    border-bottom:2px solid var(--ink);padding-bottom:14px}
+  .masthead h1{font-family:var(--serif);font-size:36px;font-weight:900;letter-spacing:.02em}
+  .masthead .tag{font-size:10px;font-weight:600;letter-spacing:.16em;color:var(--muted)}
+  .lede{font-size:12.5px;line-height:1.95;color:rgba(88,64,46,.72);max-width:620px;margin-top:20px}
+  .lede b{color:var(--ink)}
+
+  /* ── 节标题 ── */
+  .sect{font-size:13.5px;font-weight:800;letter-spacing:.2em;
+    padding-bottom:10px;border-bottom:1px solid var(--ink);margin-bottom:8px;margin-top:52px}
+  .sect .n{color:var(--muted);font-weight:600;margin-right:8px}
+  .claim{font-size:13px;font-weight:700;margin:10px 0 2px}
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+  .duo .sect{margin-top:52px}
+
+  .fig svg{width:100%;height:auto;display:block}
+  svg text{font-family:'Inter','Noto Sans SC',sans-serif}
+  .srcline{font-size:9px;font-weight:600;letter-spacing:.1em;
+    color:var(--faint);margin-top:8px}
+
+  /* ── 底部收尾：漏斗 + 大数对话框（学模板 02）── */
+  .finale{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:center}
+  .bignum{border:1px solid var(--faint);padding:34px 30px;position:relative}
+  .bignum::before{content:'';position:absolute;left:-8px;top:50%;width:14px;height:14px;
+    transform:translateY(-50%) rotate(45deg);background:var(--paper);
+    border-left:1px solid var(--faint);border-bottom:1px solid var(--faint)}
+  .bignum .v{font-family:var(--serif);font-size:60px;font-weight:900;
+    line-height:1;color:var(--ink)}
+  .bignum .v small{font-size:28px}
+  .bignum .l{font-size:12.5px;font-weight:700;line-height:1.7;margin-top:14px}
+  .bignum .d{font-size:10.5px;color:var(--muted);line-height:1.75;margin-top:6px}
+
+  .foot{margin-top:64px;padding-top:16px;border-top:2px solid var(--ink);
+    display:flex;justify-content:space-between;font-size:9px;font-weight:600;
+    letter-spacing:.14em;color:var(--muted)}
+
+  /* ── 动画（mono-tokens MOTION.css 原样）── */
+  .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1.3) both}
+  @keyframes pop{from{transform:scale(0)}to{transform:none}}
+  .fade{animation:fade .9s ease both}
+  @keyframes fade{from{opacity:0}}
+  .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media(max-width:640px){body{padding:24px 10px}}
+  @media (prefers-reduced-motion:reduce){
+    .pop,.fade{animation:none}
+    .draw{animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="masthead">
+    <h1>产品八年，一页年鉴</h1>
+    <span class="tag">2019 – 2026 · LUPI EDITORIAL 深水区</span>
+  </div>
+  <p class="lede">十二个功能、四十八条请求、八年工单、一条漏斗。这一页把产品八年的四种时间
+    放在一起：<b>什么时候发布的、用户在要什么、坏在了哪里、人从哪里漏掉</b>。每张图的每个
+    单位都数得出来——一根发丝是一周，一个点是一条请求，一只气泡是一摞工单。</p>
+
+  <!-- ══ 上排：扇形发布图 | 放射汇聚 ══ -->
+  <div class="duo">
+    <div>
+      <div class="sect"><span class="n">壹</span>功能是什么时候出生的</div>
+      <div class="claim">十二个功能按发布周扇开，大点沿对角线滚落</div>
+      <!-- 图A · L1 launch fan · lupi-gallery.html "Twelve features, fanned out"
+           辐条 = 功能，起点 = 发布周，点径 = 月活。 -->
+      <div class="fig"><svg id="fan" viewBox="0 0 400 330" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">LAUNCH FAN · 辐条起点 = 发布周 · 大点面积 = 月活</div>
+    </div>
+    <div>
+      <div class="sect"><span class="n">贰</span>用户在要什么</div>
+      <div class="claim">四十八条请求，被五个主题拽了过去</div>
+      <!-- 图B · L5 radial convergence · lupi-gallery.html
+           "48 requests pull toward five themes"
+           轮辋 = 一条条请求（带编号），曲线收进五个主题枢纽。 -->
+      <div class="fig"><svg id="converge" viewBox="0 0 400 330" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">RADIAL CONVERGENCE · 轮辋一点 = 一条请求 · 枢纽面积 = 主题请求数</div>
+    </div>
+  </div>
+
+  <!-- ══ 中部整行：气泡年鉴 ══ -->
+  <div class="sect"><span class="n">叁</span>坏在了哪里 —— 八年工单年鉴</div>
+  <div class="claim">工单跟着 GA 走：功能一转正，气泡就开始鼓</div>
+  <!-- 图C · bubble almanac · lupi-gallery.html "Eight years of tickets, one almanac"
+       账本发丝纸 + 手绘抖动气泡 + 旁注 + 底部大事记。860 宽整行放。 -->
+  <div class="fig"><svg id="almanac" viewBox="0 0 860 390" preserveAspectRatio="xMidYMid meet"></svg></div>
+  <div class="srcline">BUBBLE ALMANAC · 气泡面积 = 当年工单 · 色深 = 票量五档 · 琥珀 = 三大峰值 · 虚线圈 = beta 期</div>
+
+  <!-- ══ 底部：沙漏漏斗 + 大数 ══ -->
+  <div class="duo" style="margin-top:0">
+    <div>
+      <div class="sect"><span class="n">肆</span>人从哪里漏掉</div>
+      <div class="claim">条码是人，细线是流失——漏斗不是画出来的，是漏出来的</div>
+      <!-- 图D · L9 hourglass stream · lupi-gallery.html "The funnel, poured"
+           每层条带 = barcode（一根 ≈ 40 人），层间细线涓流承接，
+           左缘停靠层间转化率。 -->
+      <div class="fig"><svg id="hourglass" viewBox="0 0 400 320" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">HOURGLASS STREAM · 一根 ≈ 40 人 · 越往下色越深 · 左缘 = 层间转化率</div>
+    </div>
+    <div style="align-self:center">
+      <div class="bignum">
+        <div class="v">7.4<small>%</small></div>
+        <div class="l">访客走到付费，全程只剩 7.4%</div>
+        <div class="d">4,200 位访客 → 310 位付费。最大的一次跳水在「激活」层：
+          注册的人有一半没做完第一个项目。年鉴里 2023 的工单峰、
+          汇聚图里的 PERF 主题，指向的是同一个问题。</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>产品八年年鉴 · 一页纸</span>
+    <span>数据 · 内部工单系统 + 产品分析 · LIEFLAT CHARTS</span>
+  </div>
+</div>
+
+<script src="../shared/s-6bbef6f72e975c87.js"></script>
+<script>
+/* ── fit-width：视口比版心窄时整页等比缩小，不重排 ──
+   报告是一张版面，不是响应式网页。窄屏塌成单栏会得到一个
+   设计时不存在的版式；等比缩小则保留构图，跟 PDF 的「适合宽度」一致。
+   机制同模板 11。 */
+(()=>{
+  const sheet=document.querySelector('.sheet');
+  const W=980;
+  const fit=()=>{
+    const cs=getComputedStyle(document.body);
+    const avail=document.documentElement.clientWidth
+      -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    sheet.style.zoom=Math.min(1,avail/W);
+  };
+  fit();
+  addEventListener('resize',fit);
+})();
+</script>
+</body>
+</html>

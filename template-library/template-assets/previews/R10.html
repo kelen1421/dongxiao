@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><script>addEventListener('error',e=>parent.postMessage({kind:'preview-error',id:"R10",message:e.message},'*'));addEventListener('unhandledrejection',e=>parent.postMessage({kind:'preview-error',id:"R10",message:String(e.reason)},'*'));addEventListener('load',()=>parent.postMessage({kind:'preview-ready',id:"R10"},'*'));</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>东京五日手记 — Lieflat 报告模板 · 椰林慢刊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;900&family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* ═══════════════════════════════════════════════════════════════
+     LIEFLAT 报告模板 10 · 旅行手记（椰林慢刊）
+     场景：个人旅行/生活复盘一页（博客年终、旅行记录、生活数据随笔）
+     排版参考：图9 "Tales of San Francisco"（Gregory Wood）——粗压缩
+               衬线刊头 + 左侧色阶签、编号方块节标题、故事与统计混排的
+               三栏节奏、行间小图表 —— 只学排版和字体。
+     色板正本 = color-presets.js 的 PALM 一套（暖纸 + 深绿 + 琥珀，
+     气质最接近原图的米纸黑墨）。
+     图表正本 = lieflat gallery：
+       图A  F5  tick rows   · basics-gallery.html（开销）
+       图B  F1  rung bars   · basics-gallery.html（咖啡馆访问）
+       图C  F4  tick donut  · basics-gallery.html（饮品构成）
+       图D  F1  rung bars   · basics-gallery.html（餐食类型）
+       表格为纯排字，不占图额度。
+     彩色加墨（INK_BOOST）：发丝 ×1.8，透明度地板 .85。
+     数据说明：全部为虚构演示数据，仅用于验证版式。
+     ═══════════════════════════════════════════════════════════════ */
+  :root{
+    --bg:#F0EFEB; --txt:#58402E;
+    --mut:rgba(88,64,46,.60); --lab:rgba(88,64,46,.72);
+    --faint:rgba(88,64,46,.40); --quiet:rgba(88,64,46,.15); --grid:rgba(88,64,46,.16);
+    --data:#43593B; --data2:#77835A; --hero:#D4A017; --faintdata:#ACAD79; --wheat:#F2D17E;
+    --slab:'Roboto Slab','Noto Serif SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:'Inter','Noto Sans SC',sans-serif;
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums lining-nums;
+    display:flex;justify-content:center;padding:64px 28px}
+  .sheet{width:980px;max-width:980px}
+
+  /* ── 刊头：色阶签 + 粗衬线大题（学图9）── */
+  .mast{display:grid;grid-template-columns:64px 1fr;gap:20px;align-items:end}
+  .chips{display:flex;flex-direction:column;gap:4px;padding-bottom:8px}
+  .chips span{width:16px;height:16px}
+  .mast .kicker{font-family:var(--slab);font-size:14px;font-weight:600;
+    letter-spacing:.22em;color:var(--mut)}
+  .mast h1{font-family:var(--slab);font-size:74px;font-weight:900;line-height:1.02;
+    letter-spacing:.01em;text-shadow:3px 3px 0 rgba(172,173,121,.45)}
+  .mast .rule{border-top:1px solid var(--txt);margin-top:16px}
+
+  .lede{font-family:var(--slab);font-size:16px;font-weight:400;line-height:1.85;
+    max-width:560px;margin:28px 0 0}
+  .lede b{font-weight:700;color:var(--data)}
+
+  .hr{border-top:1px solid var(--quiet);margin:40px 0 0}
+
+  /* ── 编号节（学图9 的黑方块编号）── */
+  .row{display:grid;gap:36px;margin-top:38px}
+  .r3{grid-template-columns:1fr 1fr 1fr}
+  .r21{grid-template-columns:1fr 1.4fr 1fr}
+  .r2{grid-template-columns:1.2fr 1fr}
+  .sec h2{font-family:var(--slab);font-size:19px;font-weight:700;letter-spacing:.06em;
+    display:flex;align-items:center;gap:9px;margin-bottom:12px}
+  .sec h2 .n{background:var(--data);color:var(--bg);font-size:11px;font-weight:700;
+    width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;
+    flex:none}
+  .sec p{font-size:11px;line-height:1.95;color:var(--lab)}
+  .sec p+p{margin-top:8px}
+  .sec p b{color:var(--txt)}
+  .sec .names{font-size:9.5px;font-weight:700;letter-spacing:.14em;color:var(--mut);
+    margin-top:12px}
+  .subttl{font-size:10px;font-weight:700;color:var(--mut);margin-bottom:6px}
+
+  .fig svg{width:100%;height:auto;display:block}
+  svg text{font-family:'Inter','Noto Sans SC',sans-serif}
+  .srcline{font-size:8.5px;font-weight:600;letter-spacing:.1em;color:var(--faint);margin-top:6px}
+
+  /* ── 数字小表（学图9 的行程表）── */
+  table.log{width:100%;border-collapse:collapse}
+  table.log th{font-size:8.5px;font-weight:700;letter-spacing:.12em;color:var(--mut);
+    text-align:right;padding:0 0 7px;border-bottom:1px solid var(--txt)}
+  table.log th:first-child{text-align:left}
+  table.log td{font-size:10.5px;padding:6.5px 0;border-bottom:1px dotted var(--quiet);
+    text-align:right;font-weight:600}
+  table.log td:first-child{text-align:left;color:var(--lab);font-weight:700;
+    font-size:9px;letter-spacing:.1em}
+  table.log tr.total td{border-bottom:0;border-top:1px solid var(--txt);
+    font-weight:800;color:var(--data)}
+  table.log td.hot{color:var(--hero);font-weight:800}
+
+  /* ── 引文卡 ── */
+  .drink{border:1px solid var(--faint);padding:16px 18px;font-size:10.5px;line-height:1.8}
+  .drink .nm{font-family:var(--slab);font-weight:700;font-size:13px;margin-bottom:4px}
+  .drink b{color:var(--data)}
+  .drink .tag{display:inline-block;background:var(--wheat);padding:1px 8px;
+    font-size:9px;font-weight:700;margin-top:8px}
+
+  .foot{margin-top:56px;padding-top:12px;border-top:1px solid var(--txt);
+    display:flex;justify-content:space-between;font-size:9px;font-weight:600;
+    letter-spacing:.14em;color:var(--mut)}
+
+  .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1.3) both}
+  @keyframes pop{from{transform:scale(0)}to{transform:none}}
+  .fade{animation:fade .9s ease both}
+  @keyframes fade{from{opacity:0}}
+  .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media(max-width:640px){body{padding:24px 10px}}
+  @media (prefers-reduced-motion:reduce){
+    .pop,.fade{animation:none}
+    .draw{animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ══ 刊头 ══ -->
+  <div class="mast">
+    <div class="chips">
+      <span style="background:var(--wheat)"></span>
+      <span style="background:var(--faintdata)"></span>
+      <span style="background:var(--data2)"></span>
+      <span style="background:var(--data)"></span>
+    </div>
+    <div>
+      <div class="kicker">手记 · TALES OF</div>
+      <h1>东京五日</h1>
+      <div class="rule"></div>
+    </div>
+  </div>
+
+  <p class="lede">第四次去这座我最喜欢的城市，2026 年 5 月 31 日到 6 月 4 日。
+    这页手记用人类最好的两样东西记录这趟旅行：<b>故事，和统计</b>。（数字为演示数据）</p>
+
+  <div class="hr"></div>
+
+  <!-- ══ 第一排：主食 / 人物 / 开销 ══ -->
+  <div class="row r3">
+    <div class="sec">
+      <h2><span class="n">1</span>主食</h2>
+      <p>到日本不吃一碗深夜拉面等于没来。五天吃了三家，最好的一碗在
+        <b>中目黑的一家无名小店</b>——凌晨一点，柜台六个座位，
+        豚骨汤浓到挂勺。配一瓶波子汽水，我肯定还会回去。</p>
+    </div>
+    <div class="sec">
+      <h2><span class="n">2</span>人物</h2>
+      <p>旅途中第一次见面的人，多半希望能成为很久的朋友。
+        这群可爱的人包括（但不限于）以下几位：</p>
+      <div class="names">阿彻 · 小野 · YUKI · 陈舟 · 佐藤 · LEON</div>
+    </div>
+    <div class="sec">
+      <h2><span class="n">3</span>开销</h2>
+      <!-- 图A · F5 tick rows：一格 = ¥2,000 -->
+      <div class="fig"><svg id="spend" viewBox="0 0 260 180" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">TICK ROWS · 一格 = ¥2,000 · 琥珀 = 最大项</div>
+    </div>
+  </div>
+
+  <div class="hr"></div>
+
+  <!-- ══ 第二排：咖啡因（三联，学图9 ALCOHOL 节）══ -->
+  <div class="row r21">
+    <div class="sec">
+      <h2><span class="n">4</span>咖啡因</h2>
+      <div class="subttl">咖啡馆访问分布</div>
+      <!-- 图B · F1 rung bars：一档 = 一次到访 -->
+      <div class="fig"><svg id="cafes" viewBox="0 0 260 190" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">RUNG BARS · 一档 = 一次到访</div>
+    </div>
+    <div class="sec">
+      <h2 style="visibility:hidden"><span class="n">·</span>占位</h2>
+      <div class="subttl">五天喝了什么（杯）</div>
+      <!-- 图C · F4 tick donut：一格 = 一杯 -->
+      <div class="fig"><svg id="drinks" viewBox="0 0 300 210" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">TICK DONUT · 一格 = 一杯 · 共 23 杯</div>
+    </div>
+    <div class="sec">
+      <h2 style="visibility:hidden"><span class="n">·</span>占位</h2>
+      <div class="subttl">本趟最佳一杯</div>
+      <div class="drink">
+        <div class="nm">富谷 · 手冲肯尼亚</div>
+        在第一次当众讲完日语之后，朋友们把我拖去了 FUGLEN。
+        大多数沉重的夜晚过后，第一杯总是被记得最清楚——这杯也不例外。
+        <div class="tag">浅烘 · 果酸 · ¥750</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hr"></div>
+
+  <!-- ══ 第三排：神保町（文）/ 移动（表）══ -->
+  <div class="row r2">
+    <div class="sec">
+      <h2><span class="n">5</span>神保町</h2>
+      <p>骑车穿过旧书街再折回来的路上，满脑子都是这条街装下的书的数量。
+        雾一样的旧纸味让人晕，但抬头或低头之间，那种<b>轻微的眩晕感</b>
+        混着傍晚的横风，让我在陌生的巷子里骑得格外清醒。</p>
+      <p>回程时天放晴了，一场典型的东京落日把潮湿阴沉的下午整个擦掉。
+        一切又都对了；一条美丽、高度技术化的现代街道。
+        我从来没在一条街上有过如此矛盾的体验。</p>
+    </div>
+    <div class="sec">
+      <h2><span class="n">6</span>移动</h2>
+      <table class="log">
+        <tr><th>日</th><th>步行 KM</th><th>地铁 KM</th><th>出租 KM</th></tr>
+        <tr><td>周日</td><td>8.2</td><td>—</td><td>15.8</td></tr>
+        <tr><td>周一</td><td>12.4</td><td>17.9</td><td>—</td></tr>
+        <tr><td>周二</td><td class="hot">16.3</td><td>6.1</td><td>—</td></tr>
+        <tr><td>周三</td><td>9.2</td><td>22.4</td><td>1.7</td></tr>
+        <tr><td>周四</td><td>5.8</td><td>—</td><td>16.1</td></tr>
+        <tr class="total"><td>合计</td><td>51.9</td><td>46.4</td><td>33.6</td></tr>
+      </table>
+      <div class="srcline" style="margin-top:8px">纯排字表格 · 不占图额度 · 琥珀 = 单日步行峰值</div>
+    </div>
+  </div>
+
+  <div class="hr"></div>
+
+  <!-- ══ 第四排：天台（文）/ 食物（图）══ -->
+  <div class="row r2">
+    <div class="sec">
+      <h2><span class="n">7</span>天台</h2>
+      <p>住处的天台能看到代代木公园的树冠后面沉下去的太阳。
+        最后一晚，我揣着两瓶自动贩卖机的柚子气泡水爬上梯子，
+        看着白天一点点死掉。<b>这样安静的时刻放到电影里会很无聊</b>，
+        幸好我没有试图拍下来。</p>
+    </div>
+    <div class="sec">
+      <h2><span class="n">8</span>食物</h2>
+      <div class="subttl">餐馆类型分布（次）</div>
+      <!-- 图D · F1 rung bars：一档 = 一次 -->
+      <div class="fig"><svg id="food" viewBox="0 0 300 170" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="srcline">RUNG BARS · 一档 = 一顿</div>
+    </div>
+  </div>
+
+  <div class="hr"></div>
+
+  <!-- ══ 收尾 ══ -->
+  <div class="row" style="grid-template-columns:1fr 1fr">
+    <div class="sec">
+      <h2><span class="n">9</span>心事</h2>
+      <p>这是我第四次来东京，每一次我都对愿意听的人说同一句话：
+        「总有一天我要在这座城市住一年。」对我来说，这里是
+        好吃的食物、松弛的街道和一种<b>克制的热闹</b>的完美混合物。</p>
+    </div>
+    <div class="sec">
+      <h2 style="visibility:hidden"><span class="n">·</span>占位</h2>
+      <p>这趟在滨松町的夜风里，我又把这句话对自己说了一遍。
+        也许三十岁的后半段就该发生在这里。<b>让我们看看。</b></p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>东京五日手记 · 2026 年 6 月</span>
+    <span>故事 + 统计 · 演示数据 · LIEFLAT CHARTS</span>
+  </div>
+</div>
+
+<script src="../shared/s-a60b73fa1e9868bf.js"></script>
+<script>
+/* ── fit-width：视口比版心窄时整页等比缩小，不重排 ──
+   报告是一张版面，不是响应式网页。窄屏塌成单栏会得到一个
+   设计时不存在的版式；等比缩小则保留构图，跟 PDF 的「适合宽度」一致。
+   机制同模板 11。 */
+(()=>{
+  const sheet=document.querySelector('.sheet');
+  const W=980;
+  const fit=()=>{
+    const cs=getComputedStyle(document.body);
+    const avail=document.documentElement.clientWidth
+      -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    sheet.style.zoom=Math.min(1,avail/W);
+  };
+  fit();
+  addEventListener('resize',fit);
+})();
+</script>
+</body>
+</html>

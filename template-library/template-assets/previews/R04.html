@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><script>addEventListener('error',e=>parent.postMessage({kind:'preview-error',id:"R04",message:e.message},'*'));addEventListener('unhandledrejection',e=>parent.postMessage({kind:'preview-error',id:"R04",message:String(e.reason)},'*'));addEventListener('load',()=>parent.postMessage({kind:'preview-ready',id:"R04"},'*'));</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>七月运营月报 — Lieflat 报告模板 · 青瓷月报</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ═══════════════════════════════════════════════════════════════
+     LIEFLAT 报告模板 04 · 月度运营月报（中文版）
+     场景：月度运营 / 流量月报（团队内部同步、投资人月更、周期性复盘）
+     排版参考："2017 Website Traffic" 浅蓝海报（左侧竖排压缩大写
+               书脊、右上角对齐节标题 + 细规线、底部 NOTABLE
+               STATISTICS 大数统计行）—— 只学排版和字体，浅蓝不学。
+     中西混排：数字走 Oswald（保留压缩感），汉字走 Noto Sans SC 黑体。
+               汉字没有压缩字形，书脊改重黑体 + 收紧字距。
+     色板正本 = color-presets.js 的 PORCELAIN 一套（青瓷蓝，明度即数据）。
+     彩色加墨规则（INK_BOOST）：数据发丝线宽 ×1.8，透明度地板 .85。
+     图表正本 = lieflat gallery：
+       图A  F2  hairline line · basics-gallery.html
+       图B  F10 dot heat      · basics-gallery.html
+       图C  F4  tick donut    · basics-gallery.html
+       图D  F5  tick rows     · basics-gallery.html
+     ═══════════════════════════════════════════════════════════════ */
+  :root{
+    /* PORCELAIN 角色 token（结构灰一律为文字色的透明档）*/
+    --bg:#F7F2EB; --ink:#081F5C; --muted:rgba(8,31,92,.60); --faint:rgba(8,31,92,.32); --grid:rgba(8,31,92,.16);
+    --num:'Oswald','Noto Sans SC',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter','Noto Sans SC',sans-serif;
+    -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums lining-nums;
+    display:flex;justify-content:center;padding:56px 24px}
+  .sheet{width:1080px;max-width:1080px;display:grid;grid-template-columns:110px 1fr}
+
+  /* ── 书脊：重黑体竖排（学参考图4 的压缩大写）── */
+  .spine{position:relative;border-right:1px solid var(--ink)}
+  .spine .t{position:absolute;top:0;left:14px;writing-mode:vertical-rl;
+    font-family:'Noto Sans SC',sans-serif;font-weight:900;font-size:56px;line-height:1.1;
+    letter-spacing:.06em;white-space:nowrap}
+  .spine .b{position:absolute;bottom:0;left:48px;writing-mode:vertical-rl;
+    font-size:9px;font-weight:700;letter-spacing:.26em;color:var(--muted)}
+
+  .content{padding-left:40px}
+
+  /* ── 顶注 ── */
+  .tophead{display:flex;gap:18px;align-items:baseline;border-bottom:1px solid var(--ink);
+    padding-bottom:10px;margin-bottom:40px}
+  .tophead .site{font-family:var(--num);font-weight:600;font-size:13px;
+    letter-spacing:.08em;text-transform:uppercase}
+  .tophead .sep{color:var(--faint)}
+  .tophead .tag{font-size:10px;font-weight:600;letter-spacing:.12em;color:var(--muted)}
+
+  /* ── 节标题：右对齐 + 引线（学参考图4）── */
+  .secthead{display:flex;align-items:baseline;gap:14px;margin:44px 0 8px}
+  .secthead .line{flex:1;border-top:1px solid var(--ink)}
+  .secthead .t{font-family:'Noto Sans SC',sans-serif;font-weight:700;font-size:15px;
+    letter-spacing:.2em}
+  .secthead.first{margin-top:0}
+
+  .claim{font-size:13px;font-weight:700;color:var(--ink);margin:4px 0 2px}
+  .fig svg{width:100%;height:auto;display:block}
+  svg text{font-family:'Inter','Noto Sans SC',sans-serif}
+  .srcline{font-size:9px;font-weight:600;letter-spacing:.1em;
+    color:var(--faint);margin-top:8px}
+
+  .duo{display:grid;grid-template-columns:1.25fr 1fr;gap:44px}
+
+  /* ── 底部统计行（学参考图4 的 NOTABLE STATISTICS）── */
+  .stats{display:grid;grid-template-columns:1fr 1fr 1.2fr 1fr;gap:0;margin-top:14px;
+    border-top:1px solid var(--ink)}
+  .stats>div{padding:22px 20px 6px;border-right:1px dotted var(--faint)}
+  .stats>div:first-child{padding-left:0}
+  .stats>div:last-child{border-right:0;padding-right:0}
+  .stats .kpi{margin-bottom:18px}
+  .stats .kpi .v{font-family:var(--num);font-weight:700;font-size:38px;line-height:1}
+  .stats .kpi .r{font-size:10px;font-weight:700;color:var(--muted);margin-top:4px}
+  .stats .kpi .l{font-size:9.5px;font-weight:600;letter-spacing:.12em;
+    color:var(--faint);margin-top:3px}
+  .stats h4{font-family:'Noto Sans SC',sans-serif;font-weight:700;font-size:12.5px;
+    letter-spacing:.14em;margin-bottom:10px}
+  .ranked .row{display:flex;gap:12px;align-items:baseline;padding:8px 0;
+    border-bottom:1px dotted var(--faint)}
+  .ranked .row:last-child{border-bottom:0}
+  .ranked .n{font-family:var(--num);font-weight:700;font-size:24px;min-width:38px}
+  .ranked .d{font-size:10px;line-height:1.7;color:var(--muted)}
+  .ranked .d b{color:var(--ink)}
+
+  .foot{margin-top:48px;border-top:1px solid var(--ink);padding-top:12px;
+    display:flex;justify-content:space-between;font-size:9px;font-weight:600;
+    letter-spacing:.12em;color:var(--muted)}
+
+  /* ── 动画（mono-tokens MOTION.css 原样）── */
+  .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.7,.3,1.3) both}
+  @keyframes pop{from{transform:scale(0)}to{transform:none}}
+  .fade{animation:fade .9s ease both}
+  @keyframes fade{from{opacity:0}}
+  .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s cubic-bezier(.4,0,.2,1) both}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media(max-width:640px){body{padding:24px 10px}}
+  @media (prefers-reduced-motion:reduce){
+    .pop,.fade{animation:none}
+    .draw{animation:none;stroke-dasharray:none;stroke-dashoffset:0}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ══ 书脊 ══ -->
+  <div class="spine">
+    <div class="t">七月运营月报</div>
+    <div class="b">月度 · 2026</div>
+  </div>
+
+  <div class="content">
+    <div class="tophead">
+      <span class="site">yoursite.com</span><span class="sep">|</span>
+      <span class="tag">2026 年 7 月数据 · 全部指标环比上月</span>
+    </div>
+
+    <!-- ══ 图A · F2 hairline line：本月逐日 ══
+         模板：basics-gallery.html · "Thirty days of sign-ups" -->
+    <div class="secthead first"><span class="line"></span><span class="t">每日注册</span></div>
+    <div class="claim">两次发布的尖峰撑起了整个月，底盘几乎没动</div>
+    <div class="fig"><svg id="dayline" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet"></svg></div>
+    <div class="srcline">HAIRLINE LINE · 一点 = 一天 · 空心 = 周末</div>
+
+    <!-- ══ 图B · F10 dot heat：一周节奏 ══
+         模板：basics-gallery.html · "When support gets loud" -->
+    <div class="secthead"><span class="line"></span><span class="t">客服何时最忙</span></div>
+    <div class="duo">
+      <div>
+        <div class="claim">周二上午十点，依旧是最吵的一小时</div>
+        <div class="fig"><svg id="dotheat" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline">DOT HEAT · 7 天 × 12 小时 · 点面积 = 工单量</div>
+      </div>
+      <div>
+        <!-- ══ 图C · F4 tick donut：来源分布 ══
+             模板：basics-gallery.html · "Where the traffic comes from" -->
+        <div class="claim">自然流量这个月终于超过了投放</div>
+        <div class="fig"><svg id="donut" viewBox="0 0 330 300" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline">TICK DONUT · 一格 = 访问量的 1%</div>
+      </div>
+    </div>
+
+    <!-- ══ 值得记住的数字 ══ -->
+    <div class="secthead"><span class="line"></span><span class="t">值得记住的数字</span></div>
+    <div class="stats">
+      <div>
+        <div class="kpi"><div class="v">1,502</div><div class="r">日均 4.11</div><div class="l">浏览量</div></div>
+        <div class="kpi"><div class="v">581</div><div class="r">日均 1.59</div><div class="l">总访客</div></div>
+        <div class="kpi"><div class="v">358</div><div class="r">日均 0.98</div><div class="l">独立访客</div></div>
+      </div>
+      <div>
+        <div class="kpi"><div class="v">26.1%</div><div class="r">较 6 月的 19.4% 上升</div><div class="l">社交流量占比</div></div>
+        <div class="kpi"><div class="v">61</div><div class="r">每 100 次访问中</div><div class="l">来自桌面端</div></div>
+      </div>
+      <div>
+        <h4>各产品线客服工单</h4>
+        <!-- ══ 图D · F5 tick rows（迷你）══
+             模板：basics-gallery.html · "Six teams, shipped and counted" -->
+        <div class="fig"><svg id="rows" viewBox="0 0 260 190" preserveAspectRatio="xMidYMid meet"></svg></div>
+        <div class="srcline" style="text-align:left">TICK ROWS · 一格 = 一张工单</div>
+      </div>
+      <div class="ranked">
+        <h4>本月阅读最多</h4>
+        <div class="row"><div class="n">45%</div><div class="d"><b>定价调整公告</b> —— 占全月浏览量的 45%</div></div>
+        <div class="row"><div class="n">19%</div><div class="d"><b>文档快速上手</b> —— 连续第二个月进前三</div></div>
+        <div class="row"><div class="n">14%</div><div class="d"><b>七月更新日志</b> —— changelog 触达新高</div></div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <span>月度运营一页纸 · 2026 年 7 月</span>
+      <span>数据 · PLAUSIBLE + INTERCOM · 8 月 1 日拉取</span>
+    </div>
+  </div>
+</div>
+
+<script src="../shared/s-4da0969e67626250.js"></script>
+<script>
+/* ── fit-width：视口比版心窄时整页等比缩小，不重排 ──
+   报告是一张版面，不是响应式网页。窄屏塌成单栏会得到一个
+   设计时不存在的版式；等比缩小则保留构图，跟 PDF 的「适合宽度」一致。
+   机制同模板 11。 */
+(()=>{
+  const sheet=document.querySelector('.sheet');
+  const W=1080;
+  const fit=()=>{
+    const cs=getComputedStyle(document.body);
+    const avail=document.documentElement.clientWidth
+      -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    sheet.style.zoom=Math.min(1,avail/W);
+  };
+  fit();
+  addEventListener('resize',fit);
+})();
+</script>
+</body>
+</html>
