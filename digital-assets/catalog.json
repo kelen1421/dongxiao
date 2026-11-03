@@ -1,0 +1,2343 @@
+{
+  "version": 1,
+  "repository": "kelen1421/dongxiao",
+  "updatedAt": "2026-11-03T00:00:00.000Z",
+  "items": [
+    {
+      "key": "ui2v:studio-liquid-glass",
+      "path": "digital-assets/ui2v/studio-liquid-glass/1.0.1/original.zip",
+      "title": "液态玻璃 · UI2V",
+      "category": "动效",
+      "byteSize": 73698,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "digital-assets/ui2v/studio-liquid-glass/1.0.1/preview.html",
+      "sourceSlug": "studio-liquid-glass",
+      "sourceUrl": "https://ui2v.com/itelmn/studio-liquid-glass",
+      "author": "artor",
+      "license": "MIT-0（源站声明）",
+      "version": "1.0.1",
+      "description": "12 秒液态玻璃界面动效。包含可编辑 HTML、时间线、GSAP 与字体及字体许可。",
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        "UI2V",
+        "玻璃",
+        "界面"
+      ],
+      "sha256": "f5a61b8432f58e17e04876f41f374f7bfc197ee8060021007ade709cfd8004b5"
+    },
+    {
+      "key": "template-library/template-assets/previews/L2.html",
+      "path": "template-library/template-assets/previews/L2.html",
+      "title": "点阵级联排名",
+      "category": "动效",
+      "byteSize": 4151,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "排名比较，可数单位（unit chart）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L3.html",
+      "path": "template-library/template-assets/previews/L3.html",
+      "title": "条码棒棒糖",
+      "category": "动效",
+      "byteSize": 4698,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "每天一个读数的日序列（90 天级）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L4.html",
+      "path": "template-library/template-assets/previews/L4.html",
+      "title": "弧形矩阵",
+      "category": "动效",
+      "byteSize": 4120,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "分类×分类+量，小数据（≤100 格）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L6.html",
+      "path": "template-library/template-assets/previews/L6.html",
+      "title": "星簇关系场",
+      "category": "动效",
+      "byteSize": 4210,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "中心+卫星网络，海报版",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L7.html",
+      "path": "template-library/template-assets/previews/L7.html",
+      "title": "品牌双极量表",
+      "category": "动效",
+      "byteSize": 4155,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "双极量表（两端都是合法位置）+ 竞品对照",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L8.html",
+      "path": "template-library/template-assets/previews/L8.html",
+      "title": "空间点阵",
+      "category": "动效",
+      "byteSize": 4161,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "多组×网格×量，等距堆叠",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L10.html",
+      "path": "template-library/template-assets/previews/L10.html",
+      "title": "放射叠片",
+      "category": "动效",
+      "byteSize": 4176,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "逐事件叠加：时刻(角)×规模(径)，透明度=密度",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L11.html",
+      "path": "template-library/template-assets/previews/L11.html",
+      "title": "事件生命线",
+      "category": "动效",
+      "byteSize": 4164,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "事件序列生命史（首发/重做/休眠/存活）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L12.html",
+      "path": "template-library/template-assets/previews/L12.html",
+      "title": "名单汇流",
+      "category": "动效",
+      "byteSize": 4167,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "多对一归属+逐条名单（≤50 条）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L13.html",
+      "path": "template-library/template-assets/previews/L13.html",
+      "title": "沙漏漏斗",
+      "category": "动效",
+      "byteSize": 4136,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "分阶段递减人数（漏斗）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L15.html",
+      "path": "template-library/template-assets/previews/L15.html",
+      "title": "多选刻度",
+      "category": "动效",
+      "byteSize": 4214,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "多选题百分比（各项独立 0–100），≤6 项",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L16.html",
+      "path": "template-library/template-assets/previews/L16.html",
+      "title": "细读热力矩阵",
+      "category": "动效",
+      "byteSize": 4221,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "两个离散维度 × 数值，≤100 格，保留矩阵结构与重点格",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L17.html",
+      "path": "template-library/template-assets/previews/L17.html",
+      "title": "全年日历热力",
+      "category": "动效",
+      "byteSize": 4270,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "一整年日期 × 数量，52 周 × 7 天",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L19.html",
+      "path": "template-library/template-assets/previews/L19.html",
+      "title": "山峦分布",
+      "category": "动效",
+      "byteSize": 4216,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "3–8 组连续分布的密度形状比较",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/L20.html",
+      "path": "template-library/template-assets/previews/L20.html",
+      "title": "平行坐标",
+      "category": "动效",
+      "byteSize": 4249,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "同一实体集跨 3–6 个连续维度，一线一实体",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/lupi-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "细线叙事",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F1.html",
+      "path": "template-library/template-assets/previews/F1.html",
+      "title": "刻度柱状",
+      "category": "动效",
+      "byteSize": 3402,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "少类目比较（≤8），单位可数",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F2.html",
+      "path": "template-library/template-assets/previews/F2.html",
+      "title": "发丝折线",
+      "category": "动效",
+      "byteSize": 3424,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "日序列（≤30 天，逐日读数）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F3.html",
+      "path": "template-library/template-assets/previews/F3.html",
+      "title": "发丝面积",
+      "category": "动效",
+      "byteSize": 3430,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "日序列（30–60 天，看形态）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F4.html",
+      "path": "template-library/template-assets/previews/F4.html",
+      "title": "刻度环形",
+      "category": "动效",
+      "byteSize": 3426,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "100% 构成（≤6 段）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F5.html",
+      "path": "template-library/template-assets/previews/F5.html",
+      "title": "横向刻度排行",
+      "category": "动效",
+      "byteSize": 3423,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "横向排名比较，单位可数（≤8 行）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F6.html",
+      "path": "template-library/template-assets/previews/F6.html",
+      "title": "成对刻度",
+      "category": "动效",
+      "byteSize": 3444,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "分组对比（每类 2 系列，如今昔）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F7.html",
+      "path": "template-library/template-assets/previews/F7.html",
+      "title": "堆叠刻度",
+      "category": "动效",
+      "byteSize": 3438,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "堆叠构成（≤4 类 × ≤3 段）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F8.html",
+      "path": "template-library/template-assets/previews/F8.html",
+      "title": "垂线散点",
+      "category": "动效",
+      "byteSize": 3445,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "二维散点（≤20 点）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F9.html",
+      "path": "template-library/template-assets/previews/F9.html",
+      "title": "刻度瀑布",
+      "category": "动效",
+      "byteSize": 3425,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "瀑布 / 增减分解（≤6 级）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F10.html",
+      "path": "template-library/template-assets/previews/F10.html",
+      "title": "时段点阵热力",
+      "category": "动效",
+      "byteSize": 3432,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "星期×小时×量（小热力）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F11.html",
+      "path": "template-library/template-assets/previews/F11.html",
+      "title": "刻度进度环",
+      "category": "动效",
+      "byteSize": 3436,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "单值进度（0–100%）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F12.html",
+      "path": "template-library/template-assets/previews/F12.html",
+      "title": "前后哑铃",
+      "category": "动效",
+      "byteSize": 3461,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "类目级前后对比（≤6 类，串珠=真单位）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F13.html",
+      "path": "template-library/template-assets/previews/F13.html",
+      "title": "嵌套矩形树",
+      "category": "动效",
+      "byteSize": 3475,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "两层层级 + 正数权重，矩形面积=数值",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F14.html",
+      "path": "template-library/template-assets/previews/F14.html",
+      "title": "刻度直方",
+      "category": "动效",
+      "byteSize": 3449,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "单变量分箱频数，bin 有业务含义且单位可数",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F15.html",
+      "path": "template-library/template-assets/previews/F15.html",
+      "title": "刻度箱线",
+      "category": "动效",
+      "byteSize": 3447,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "分组五数概括 + 异常值，原始分布可被汇总",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F16.html",
+      "path": "template-library/template-assets/previews/F16.html",
+      "title": "流动带状",
+      "category": "动效",
+      "byteSize": 3504,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "2–5 个系列的构成随连续时间变化，同时看总量",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/F17.html",
+      "path": "template-library/template-assets/previews/F17.html",
+      "title": "K 线图",
+      "category": "动效",
+      "byteSize": 3455,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "OHLC 四值时间序列，空心=涨、实心=跌",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/basics-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "基础图表",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G3.html",
+      "path": "template-library/template-assets/previews/G3.html",
+      "title": "粗柱比较",
+      "category": "动效",
+      "byteSize": 3478,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "少类目排名比较（≤6）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G4.html",
+      "path": "template-library/template-assets/previews/G4.html",
+      "title": "圆点构成",
+      "category": "动效",
+      "byteSize": 3558,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "100% 构成（占比）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G5.html",
+      "path": "template-library/template-assets/previews/G5.html",
+      "title": "象形柱状",
+      "category": "动效",
+      "byteSize": 3505,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "逐年计数（一个符号=固定数量）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G6.html",
+      "path": "template-library/template-assets/previews/G6.html",
+      "title": "小型环形关系",
+      "category": "动效",
+      "byteSize": 3524,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "网络，≤12 节点",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G7.html",
+      "path": "template-library/template-assets/previews/G7.html",
+      "title": "横向层级树",
+      "category": "动效",
+      "byteSize": 3501,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "层级结构（2–3 层）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G8.html",
+      "path": "template-library/template-assets/previews/G8.html",
+      "title": "双序列面积",
+      "category": "动效",
+      "byteSize": 3539,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "双序列因果（投入 vs 产出）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G9.html",
+      "path": "template-library/template-assets/previews/G9.html",
+      "title": "散点视图变形",
+      "category": "动效",
+      "byteSize": 3512,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "同一实体集的三个维度轮播",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G10.html",
+      "path": "template-library/template-assets/previews/G10.html",
+      "title": "正负分歧条",
+      "category": "动效",
+      "byteSize": 3526,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "有正负的分类数值",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G11.html",
+      "path": "template-library/template-assets/previews/G11.html",
+      "title": "小型力导向",
+      "category": "动效",
+      "byteSize": 3542,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "中心+卫星网络，≤15 节点",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G12.html",
+      "path": "template-library/template-assets/previews/G12.html",
+      "title": "错时波浪",
+      "category": "动效",
+      "byteSize": 3514,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "多类目分布（30–60 根）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G13.html",
+      "path": "template-library/template-assets/previews/G13.html",
+      "title": "大切片",
+      "category": "动效",
+      "byteSize": 3559,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "双编码：占比(角)×强度(径)",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G15.html",
+      "path": "template-library/template-assets/previews/G15.html",
+      "title": "抖动分布",
+      "category": "动效",
+      "byteSize": 3534,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "分组分布，逐条记录（几百点）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G16.html",
+      "path": "template-library/template-assets/previews/G16.html",
+      "title": "动态排行",
+      "category": "动效",
+      "byteSize": 3537,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "排名随时间演变",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G17.html",
+      "path": "template-library/template-assets/previews/G17.html",
+      "title": "实时流动",
+      "category": "动效",
+      "byteSize": 3527,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "实时滚动序列",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G18.html",
+      "path": "template-library/template-assets/previews/G18.html",
+      "title": "描线与计数",
+      "category": "动效",
+      "byteSize": 3542,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "累计增长（一条线+一个大数）",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G20.html",
+      "path": "template-library/template-assets/previews/G20.html",
+      "title": "快读热力矩阵",
+      "category": "动效",
+      "byteSize": 3692,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "两个离散维度 × 数值，≤60 格，每格直接读数",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G21.html",
+      "path": "template-library/template-assets/previews/G21.html",
+      "title": "排名轨迹",
+      "category": "动效",
+      "byteSize": 3662,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "多实体排名随离散时间变化，适合静态印刷",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/G22.html",
+      "path": "template-library/template-assets/previews/G22.html",
+      "title": "聚合桑基",
+      "category": "动效",
+      "byteSize": 3663,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "两端聚合流量，带宽=数量，不要求逐路径查询",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/glance-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "快速概览",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/B2.html",
+      "path": "template-library/template-assets/previews/B2.html",
+      "title": "力导向星系",
+      "category": "动效",
+      "byteSize": 1766,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "可拖拽、缩放的大型关系网络",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/big-force.html",
+      "license": "见仓库附带许可文件",
+      "width": 1000,
+      "height": 720,
+      "tags": [
+        "交互大图",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/M1.html",
+      "path": "template-library/template-assets/previews/M1.html",
+      "title": "美国分级设色",
+      "category": "动效",
+      "byteSize": 3528,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "美国州级区域 + 非负数值，明度=数值",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/maps-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "地图",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/M2.html",
+      "path": "template-library/template-assets/previews/M2.html",
+      "title": "世界分级设色",
+      "category": "动效",
+      "byteSize": 3498,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "世界国家级区域 + 非负数值，明度=数值",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/maps-gallery.html",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "地图",
+        "chart"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=1",
+      "path": "template-library/template-assets/motion-demo.html?recipe=1",
+      "title": "逐行文字揭示",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "遮罩内逐行向上出现",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=2",
+      "path": "template-library/template-assets/motion-demo.html?recipe=2",
+      "title": "磁性悬停",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "按钮跟随指针偏移，离开后归位",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=3",
+      "path": "template-library/template-assets/motion-demo.html?recipe=3",
+      "title": "幕布揭示",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "裁切展开图像，同时收回画面缩放",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=5",
+      "path": "template-library/template-assets/motion-demo.html?recipe=5",
+      "title": "横向滚动轨道",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "纵向滚动映射为横向浏览",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=6",
+      "path": "template-library/template-assets/motion-demo.html?recipe=6",
+      "title": "多层视差",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "不同层以不同速度移动",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=7",
+      "path": "template-library/template-assets/motion-demo.html?recipe=7",
+      "title": "光标轨迹",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "指针拖出逐渐消散的轨迹",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=8",
+      "path": "template-library/template-assets/motion-demo.html?recipe=8",
+      "title": "页面切换",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "先离场，再进入下一页",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=9",
+      "path": "template-library/template-assets/motion-demo.html?recipe=9",
+      "title": "滚动固定叙事",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "场景固定，随滚动依次切换内容",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=10",
+      "path": "template-library/template-assets/motion-demo.html?recipe=10",
+      "title": "数字递增",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "数字从零增长到目标值",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=11",
+      "path": "template-library/template-assets/motion-demo.html?recipe=11",
+      "title": "黏液遮罩",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "指针移动揭示另一层图像",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=12",
+      "path": "template-library/template-assets/motion-demo.html?recipe=12",
+      "title": "平滑滚动联动",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "平滑滚动与元素进度同步",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=13",
+      "path": "template-library/template-assets/motion-demo.html?recipe=13",
+      "title": "背景感知导航",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "导航随背景由浅入深自动反色",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=14",
+      "path": "template-library/template-assets/motion-demo.html?recipe=14",
+      "title": "手绘标注圈",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "轮廓描线强调一个内容",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/char-curtain/index.html",
+      "path": "template-library/template-assets/cases/char-curtain/index.html",
+      "title": "物理文字帘",
+      "category": "动效",
+      "byteSize": 15557,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "悬挂文字受指针拨动和滚动激励",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=16",
+      "path": "template-library/template-assets/motion-demo.html?recipe=16",
+      "title": "原生滚动与错时",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "滚动揭示与列表逐个出现",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=17",
+      "path": "template-library/template-assets/motion-demo.html?recipe=17",
+      "title": "四角透视形变",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "四角独立定位，形成透视变形",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=18",
+      "path": "template-library/template-assets/motion-demo.html?recipe=18",
+      "title": "可弯折卡片链",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "卡片串跟随指针摆动、弯折",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/string-clock/index.html",
+      "path": "template-library/template-assets/cases/string-clock/index.html",
+      "title": "软绳硬端点",
+      "category": "动效",
+      "byteSize": 38241,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "绳身柔软，端点固定在目标位置",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/motion-demo.html?recipe=20",
+      "path": "template-library/template-assets/motion-demo.html?recipe=20",
+      "title": "堆积式涌现",
+      "category": "动效",
+      "byteSize": 500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "内容逐个到达，数量本身形成构图",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/blob/main/references/pattern-recipes.md",
+      "license": "见仓库附带许可文件",
+      "width": 620,
+      "height": 430,
+      "tags": [
+        "动效配方",
+        "motion"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/ink-crowd/index.html",
+      "path": "template-library/template-assets/cases/ink-crowd/index.html",
+      "title": "墨迹人群",
+      "category": "动效",
+      "byteSize": 79933,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "指针驱动的手绘人群场景",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/tree/main/cases/ink-crowd",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "完整动效案例",
+        "case"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/press-stack/index.html",
+      "path": "template-library/template-assets/cases/press-stack/index.html",
+      "title": "唱片叠层",
+      "category": "动效",
+      "byteSize": 140621,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "滚动切换唱片与叙事层次",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/tree/main/cases/press-stack",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "完整动效案例",
+        "case"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/toy-flipbook/index.html",
+      "path": "template-library/template-assets/cases/toy-flipbook/index.html",
+      "title": "桌面玩具翻页",
+      "category": "动效",
+      "byteSize": 55084,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "移动指针与滚动，驱动翻页和玩具反馈",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/tree/main/cases/toy-flipbook",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "完整动效案例",
+        "case"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/cases/wheel-rail/index.html",
+      "path": "template-library/template-assets/cases/wheel-rail/index.html",
+      "title": "滚轮叙事轨道",
+      "category": "动效",
+      "byteSize": 103046,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "滚动驱动整个场景的编排与切换",
+      "author": "motion-web",
+      "sourceUrl": "https://github.com/feitangyuan/motion-web/tree/main/cases/wheel-rail",
+      "license": "见仓库附带许可文件",
+      "width": 1100,
+      "height": 760,
+      "tags": [
+        "完整动效案例",
+        "case"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R01.html",
+      "path": "template-library/template-assets/previews/R01.html",
+      "title": "调研一页纸",
+      "category": "动效",
+      "byteSize": 10164,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "调研报告、研究简报、政策 / 市场洞察、白皮书开篇、对外数据发布",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-01.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1160,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R02.html",
+      "path": "template-library/template-assets/previews/R02.html",
+      "title": "年度里程碑",
+      "category": "动效",
+      "byteSize": 11123,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "年度复盘、业绩 / 财报回顾、投资人更新、产品或项目里程碑",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-02.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1060,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R03.html",
+      "path": "template-library/template-assets/previews/R03.html",
+      "title": "年度数据海报",
+      "category": "动效",
+      "byteSize": 11022,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "年度数据报告、经营 / 财务年报、个人年度记录、年度趋势海报",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-03.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1160,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R04.html",
+      "path": "template-library/template-assets/previews/R04.html",
+      "title": "月度运营",
+      "category": "动效",
+      "byteSize": 11076,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "月报、业务数据报告、财报、运营 / 财务经营复盘、周期性监控",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-04.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1160,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R05.html",
+      "path": "template-library/template-assets/previews/R05.html",
+      "title": "影响力故事",
+      "category": "动效",
+      "byteSize": 8801,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "项目复盘、产品记录、公益 / 社区案例、影响力叙事、个人成长记录",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-05.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 840,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R06.html",
+      "path": "template-library/template-assets/previews/R06.html",
+      "title": "产品八年年鉴",
+      "category": "动效",
+      "byteSize": 10110,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "长周期年鉴、产品 / 公司历史、多年财务或业务趋势、个人长期数据",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-06.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1060,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R07.html",
+      "path": "template-library/template-assets/previews/R07.html",
+      "title": "调研拼贴海报",
+      "category": "动效",
+      "byteSize": 13081,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "调研报告海报、用户 / 市场研究、活动 / 展会数据、社媒传播物料",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-07.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1060,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R08.html",
+      "path": "template-library/template-assets/previews/R08.html",
+      "title": "单位人群一页",
+      "category": "动效",
+      "byteSize": 8621,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "人群 / 用户画像、政策 / 公益简报、市场细分、人口与社会经济数据",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-08.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 960,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R09.html",
+      "path": "template-library/template-assets/previews/R09.html",
+      "title": "数据故事仪表盘",
+      "category": "动效",
+      "byteSize": 12449,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "dashboard、财务 / 经营驾驶舱、业务总览、竞品 / 市场对比、KPI 快照",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-09.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1160,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R10.html",
+      "path": "template-library/template-assets/previews/R10.html",
+      "title": "旅行手记",
+      "category": "动效",
+      "byteSize": 14003,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "旅行数据记录、运动数据记录、个人年度 / 生活数据、轻量项目日志",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-10.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1060,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R11.html",
+      "path": "template-library/template-assets/previews/R11.html",
+      "title": "研究简报卡",
+      "category": "动效",
+      "byteSize": 9500,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "研究简报、金融 / 经济快报、社媒卡片、汇报插页、关键指标快照",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-11.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 680,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/R12.html",
+      "path": "template-library/template-assets/previews/R12.html",
+      "title": "周报速览",
+      "category": "动效",
+      "byteSize": 10203,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "周报、财务 / 经营快报、运营监控、项目进展、运动或旅行周记",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/reports/report-12.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1160,
+      "height": 1000,
+      "tags": [
+        "整页报告",
+        "report"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P01.html",
+      "path": "template-library/template-assets/previews/P01.html",
+      "title": "封面",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P02.html",
+      "path": "template-library/template-assets/previews/P02.html",
+      "title": "目录",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P03.html",
+      "path": "template-library/template-assets/previews/P03.html",
+      "title": "市场矩阵",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P04.html",
+      "path": "template-library/template-assets/previews/P04.html",
+      "title": "四指标总览",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P06.html",
+      "path": "template-library/template-assets/previews/P06.html",
+      "title": "通栏年鉴",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P08.html",
+      "path": "template-library/template-assets/previews/P08.html",
+      "title": "宽幅时间序列",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P09.html",
+      "path": "template-library/template-assets/previews/P09.html",
+      "title": "四象限构成",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P10.html",
+      "path": "template-library/template-assets/previews/P10.html",
+      "title": "深色级联排行",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P11.html",
+      "path": "template-library/template-assets/previews/P11.html",
+      "title": "错位大数字",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P12.html",
+      "path": "template-library/template-assets/previews/P12.html",
+      "title": "结论与行动",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P13.html",
+      "path": "template-library/template-assets/previews/P13.html",
+      "title": "多选投票",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P14.html",
+      "path": "template-library/template-assets/previews/P14.html",
+      "title": "章节页",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P15.html",
+      "path": "template-library/template-assets/previews/P15.html",
+      "title": "里程碑时间线",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P16.html",
+      "path": "template-library/template-assets/previews/P16.html",
+      "title": "底部大标题",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P17.html",
+      "path": "template-library/template-assets/previews/P17.html",
+      "title": "指标与侧注",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P18.html",
+      "path": "template-library/template-assets/previews/P18.html",
+      "title": "名单归属",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "template-library/template-assets/previews/P19.html",
+      "path": "template-library/template-assets/previews/P19.html",
+      "title": "阅读说明与来源",
+      "category": "UI",
+      "byteSize": 54144,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "description": "取自原版中文演示文稿；可放大浏览与翻页",
+      "author": "Lieflat Charts",
+      "sourceUrl": "https://github.com/larashero3-dotcom/lieflat-charts/blob/main/templates/presentations/presentation.zh.html",
+      "license": "见仓库附带许可文件",
+      "width": 1280,
+      "height": 780,
+      "tags": [
+        "演示版式",
+        "presentation"
+      ],
+      "collection": "已有动效模板"
+    },
+    {
+      "key": "shot:001",
+      "path": "kelen-animation.zip",
+      "title": "信封变 K · 完整开场",
+      "category": "动效",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-06-archive.jpg",
+      "description": "鸽子送信 → 信封落地 → 展开成 K → 旋转立起 → 档案进场。 适合个人主页、品牌片头、档案开场。",
+      "tags": [
+        "开场"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:002",
+      "path": "玻璃K循环源码.zip",
+      "title": "玻璃 K · 轨道与光线",
+      "category": "动效",
+      "byteSize": 39274,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-scene.html",
+      "thumbnail": "kelen-05-stand.jpg",
+      "description": "玻璃 K 漂浮，轨道、飘带和光线持续运动。 适合背景、等待画面和品牌主视觉。",
+      "tags": [
+        "循环背景"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:003",
+      "path": "原始参考.mp4",
+      "title": "故障开屏 · Logo 移位",
+      "category": "动效",
+      "byteSize": 78000,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "原始参考.mp4",
+      "thumbnail": "关键帧总览.png",
+      "description": "终端文字、光晕和故障条带显现，中央 Logo 向左上移动。 参考素材；视频在 Logo 移动途中结束。",
+      "tags": [
+        "开场"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:004",
+      "path": "card-carousel.mp4",
+      "title": "卡片横移 · 选中放大",
+      "category": "动效",
+      "byteSize": 672505,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "card-carousel.mp4",
+      "thumbnail": "card-carousel.jpg",
+      "description": "卡片横向滚动，焦点框定位，选中卡片放大。 适合内容推荐、作品选择和书单展示。",
+      "tags": [
+        "内容切换"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:005",
+      "path": "kelen-animation.zip",
+      "title": "鸽子送信",
+      "category": "镜头",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-01-flight.jpg",
+      "description": "鸽子带着信封从画面边缘飞入。 完整开场内的 0.00–0.84 秒；下载完整源码，按此时间段复用。",
+      "tags": [
+        "分镜"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:006",
+      "path": "kelen-animation.zip",
+      "title": "信封释放与落地",
+      "category": "镜头",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-03-land.jpg",
+      "description": "信封脱离鸽子，旋转落地并轻微回弹。 完整开场内的 0.84–1.23 秒；下载完整源码，按此时间段复用。",
+      "tags": [
+        "分镜"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:007",
+      "path": "kelen-animation.zip",
+      "title": "纸面展开成 K",
+      "category": "镜头",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-04-morph.jpg",
+      "description": "纸片展开，纸色逐渐过渡成玻璃质感。 完整开场内的 1.23–1.58 秒；下载完整源码，按此时间段复用。",
+      "tags": [
+        "分镜"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:008",
+      "path": "kelen-animation.zip",
+      "title": "K 旋转立起",
+      "category": "镜头",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-05-stand.jpg",
+      "description": "K 从地面旋转立起，同时扩大并移动。 完整开场内的 1.58–2.09 秒；下载完整源码，按此时间段复用。",
+      "tags": [
+        "分镜"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "shot:009",
+      "path": "kelen-animation.zip",
+      "title": "档案界面进场",
+      "category": "镜头",
+      "byteSize": 40007,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "previewPath": "kelen-player.html",
+      "thumbnail": "kelen-06-archive.jpg",
+      "description": "侧栏、标题和内容沿弧线交错进入。 完整开场内的 1.63–2.54 秒；下载完整源码，按此时间段复用。",
+      "tags": [
+        "分镜"
+      ],
+      "collection": "我的镜头列表",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "key": "README.md",
+      "path": "README.md",
+      "title": "README",
+      "category": "文档",
+      "byteSize": 1855,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "card-carousel.jpg",
+      "path": "card-carousel.jpg",
+      "title": "card-carousel",
+      "category": "图片",
+      "byteSize": 30418,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-01-flight.jpg",
+      "path": "kelen-01-flight.jpg",
+      "title": "kelen-01-flight",
+      "category": "图片",
+      "byteSize": 12062,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-02-fall.jpg",
+      "path": "kelen-02-fall.jpg",
+      "title": "kelen-02-fall",
+      "category": "图片",
+      "byteSize": 15091,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-03-land.jpg",
+      "path": "kelen-03-land.jpg",
+      "title": "kelen-03-land",
+      "category": "图片",
+      "byteSize": 13238,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-04-morph.jpg",
+      "path": "kelen-04-morph.jpg",
+      "title": "kelen-04-morph",
+      "category": "图片",
+      "byteSize": 7515,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-05-stand.jpg",
+      "path": "kelen-05-stand.jpg",
+      "title": "kelen-05-stand",
+      "category": "图片",
+      "byteSize": 31282,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-06-archive.jpg",
+      "path": "kelen-06-archive.jpg",
+      "title": "kelen-06-archive",
+      "category": "图片",
+      "byteSize": 27821,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-keyframes.zip",
+      "path": "kelen-keyframes.zip",
+      "title": "kelen-keyframes",
+      "category": "其他",
+      "byteSize": 96984,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "kelen-notes.txt",
+      "path": "kelen-notes.txt",
+      "title": "kelen-notes",
+      "category": "文档",
+      "byteSize": 1071,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "全部动效素材.zip",
+      "path": "全部动效素材.zip",
+      "title": "全部动效素材",
+      "category": "其他",
+      "byteSize": 12269331,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "关键帧总览.png",
+      "path": "关键帧总览.png",
+      "title": "关键帧总览",
+      "category": "图片",
+      "byteSize": 368818,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "动效素材.zip",
+      "path": "动效素材.zip",
+      "title": "动效素材",
+      "category": "其他",
+      "byteSize": 10798361,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "动效记录.txt",
+      "path": "动效记录.txt",
+      "title": "动效记录",
+      "category": "文档",
+      "byteSize": 2974,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    },
+    {
+      "key": "网站源码.zip",
+      "path": "网站源码.zip",
+      "title": "网站源码",
+      "category": "其他",
+      "byteSize": 283186,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "tags": [
+        "仓库已有素材"
+      ]
+    }
+  ]
+}
