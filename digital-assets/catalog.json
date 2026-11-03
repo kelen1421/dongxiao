@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "kelen1421/dongxiao",
-  "updatedAt": "2026-11-03T00:00:00.000Z",
+  "updatedAt": "2026-11-03T02:49:44.833812+00:00",
   "items": [
     {
       "key": "ui2v:studio-liquid-glass",
@@ -2338,6 +2338,426 @@
       "tags": [
         "仓库已有素材"
       ]
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_robot_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_robot_idle.png",
+      "title": "卡通机器人 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 8339,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "7858549240f335a7c9e2a23380298f99d1805ed3b9c478df02f9c8c8870943ba",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_zombie_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_zombie_idle.png",
+      "title": "卡通僵尸 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 8519,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "67e6fb5780f7ec4781689f971931534a906ecd3712c2109692c3df83407b976d",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_femaleAdventurer_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_femaleAdventurer_idle.png",
+      "title": "女性冒险者 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 7948,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "ea2d020b168a5d6d02d66cccd375956db7854b386ee6e153d034cc0b00dff635",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_femalePerson_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_femalePerson_idle.png",
+      "title": "女性角色 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 7891,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "9d730e78cfd4a065e613115b55d3c0135e4de3c8993e261230fef18bbbdbc480",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_maleAdventurer_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_maleAdventurer_idle.png",
+      "title": "男性冒险者 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 8010,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "b89c1b41ec1fd043d542749e1966100787d3b31f5b593c7075b9aa2922a72281",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/characters/character_malePerson_idle.png",
+      "path": "digital-assets/curated/kenney/characters/character_malePerson_idle.png",
+      "title": "男性角色 · 透明 PNG",
+      "category": "人物",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/toon-characters",
+      "license": "CC0",
+      "description": "官方高清站立姿势，可用于分镜、人物占位、游戏与动效。保留原始透明 PNG；本次精选 6 个角色各 1 个姿势。",
+      "tags": [
+        "人物",
+        "透明素材",
+        "卡通"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 7618,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "291c5c37e85491e50efa58ec5f11ca93f9e36c48a54e7d32b202d69954a3b67a",
+      "licensePath": "digital-assets/curated/kenney/characters/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/click1.ogg",
+      "path": "digital-assets/curated/kenney/audio/click1.ogg",
+      "title": "轻触按钮 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 4983,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "59175ac17cd49a68dd736285738441287636112a84a6f7ce0d89921bda5a5360",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/click3.ogg",
+      "path": "digital-assets/curated/kenney/audio/click3.ogg",
+      "title": "清脆点击 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 4880,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "e3e7fc7ccd9c5cfdf77bffa05aee10d4973812076c76dc889ba2b16ea434127f",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/mouseclick1.ogg",
+      "path": "digital-assets/curated/kenney/audio/mouseclick1.ogg",
+      "title": "鼠标按下 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 4686,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "ece1210c62ccae6c9ea4f4c59466d9d453d6b357c7d4b1a6c31196e5e6fea1bf",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/mouserelease1.ogg",
+      "path": "digital-assets/curated/kenney/audio/mouserelease1.ogg",
+      "title": "鼠标松开 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 4775,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "23cb78cea76d8f1bb1266af228101a09b5d62063f4ac87ead15b1d395c6181f0",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/rollover2.ogg",
+      "path": "digital-assets/curated/kenney/audio/rollover2.ogg",
+      "title": "悬停反馈 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 4701,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "d0bc0fcba496d73df1da8c145e5330df75f87ab5a4f33a9b71461b006b5c338e",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/kenney/audio/switch1.ogg",
+      "path": "digital-assets/curated/kenney/audio/switch1.ogg",
+      "title": "开关切换 · UI 音效",
+      "category": "音频",
+      "author": "Kenney",
+      "sourceUrl": "https://kenney.nl/assets/ui-audio",
+      "license": "CC0",
+      "description": "短促的界面反馈音效，适合按钮、开关、卡片切换与界面演示。原始 OGG 文件，可在线试听。",
+      "tags": [
+        "UI",
+        "音效",
+        "反馈"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 6104,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "efdd1d1e2904fb2d81259cd96bb80101caceae94be02baa4b5310714a6708b19",
+      "licensePath": "digital-assets/curated/kenney/audio/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/camera.svg",
+      "path": "digital-assets/curated/lucide/camera.svg",
+      "title": "相机 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/camera",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 437,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "ebbb3178dd80dfd942770a2237fe7bfc3515c55c7daa9d3666933a656d2790e3",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/film.svg",
+      "path": "digital-assets/curated/lucide/film.svg",
+      "title": "胶片 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/film",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 432,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "85cfa80821b34f512bd401a1249957c9f2f612497602ecc31dff39517823ee52",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/clapperboard.svg",
+      "path": "digital-assets/curated/lucide/clapperboard.svg",
+      "title": "场记板 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/clapperboard",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 429,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "e4d78946cda7812f13c431c68b6d4d0077a92217c7f468667a203f237e247d7e",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/layers.svg",
+      "path": "digital-assets/curated/lucide/layers.svg",
+      "title": "图层 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/layers",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 510,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "ce16d0a955e3581cda17f6b2fd5c5bc2034b405f9cecc31c8ebb8495b4afc1bb",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/layout-dashboard.svg",
+      "path": "digital-assets/curated/lucide/layout-dashboard.svg",
+      "title": "仪表盘 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/layout-dashboard",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 416,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "281ab865b4c04dab32a04023473e448f58be6a7ad90769450ac3349d79dc4aed",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/palette.svg",
+      "path": "digital-assets/curated/lucide/palette.svg",
+      "title": "调色板 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/palette",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 571,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "8e7d3fde990cffd10469ba351f27c50202b057a9bb9af5626322e53fd3abc78c",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/scan-face.svg",
+      "path": "digital-assets/curated/lucide/scan-face.svg",
+      "title": "人脸识别 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/scan-face",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 454,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "048cfc02382d4e19d20558f432da555bdcd0f738bcd8e56c261b4b4ec25cc491",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/lucide/sparkles.svg",
+      "path": "digital-assets/curated/lucide/sparkles.svg",
+      "title": "灵感 · Lucide 图标",
+      "category": "UI",
+      "author": "Lucide Contributors",
+      "sourceUrl": "https://lucide.dev/icons/sparkles",
+      "license": "ISC / MIT；许可文件随附",
+      "description": "24×24 可编辑 SVG，统一描边风格，适合创作工具栏和界面按钮。原始 SVG 保留，无栅格化。",
+      "tags": [
+        "UI",
+        "图标",
+        "SVG"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 567,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "f5499f33f09d7158151e9bd2ec0faf79ff8fb57292f84fdd7286d96d0f0424d8",
+      "licensePath": "digital-assets/curated/lucide/LICENSE.txt"
+    },
+    {
+      "key": "curated:digital-assets/curated/polyhaven/spruit-sunrise.jpg",
+      "path": "digital-assets/curated/polyhaven/spruit-sunrise.jpg",
+      "title": "晨雾草地日出 · 8K 全景",
+      "category": "场景",
+      "author": "Greg Zaal / Poly Haven",
+      "sourceUrl": "https://polyhaven.com/a/spruit_sunrise",
+      "license": "CC0",
+      "description": "官方 8K Tonemapped JPG 全景下载文件，适合天空、环境氛围与场景参考；该 JPG 为普通动态范围，不代替 HDR 灯光文件。",
+      "tags": [
+        "场景",
+        "日出",
+        "全景"
+      ],
+      "collection": "精选素材 · 首批",
+      "byteSize": 6970982,
+      "createdAt": "2026-11-03T02:49:44.833812+00:00",
+      "sha256": "6a7a946c4e448711a0d7a7f3aa630e9945aa9213af2513ed7090885c3bd7f0cf",
+      "licensePath": "digital-assets/curated/polyhaven/SOURCE.md"
     }
   ]
 }
